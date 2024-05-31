@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "CSS Kirby",
       description: "Imagen de un kirby creado únicamente con css",
-      link: "https://calculadora-next-two.vercel.app",
+      link: "https://tiburoncin.lat/22129/Lab_4/lab4/css_drawing/Drawing_css.html",
       image: "../../public/kirbi.png"
     },
     // Añadir más proyectos según sea necesario
