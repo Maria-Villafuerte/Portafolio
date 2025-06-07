@@ -1,0 +1,47 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-menu {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu ul li {
+  display: inline;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+  color: #ffd700;
+}
+
+
+
