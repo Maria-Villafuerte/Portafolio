@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Main from './components/Main';
-import CV from './components/CV';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import './App.css';
+import Layout from './components/layout/Layout';
+import Main from './components/pages/Main';
+import CV from './components/pages/CV';
+import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects';
+import './styles/global/App.css';
 
 function App() {
   return (
